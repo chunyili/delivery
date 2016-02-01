@@ -1,28 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a web application for a develivey company so that the company can handle their databases easily. 
+This project also uses MySQL database. 
 
-Things you may want to cover:
+prerequsite:
 
-* Ruby version
+* Ruby version 2.0.0
 
-* System dependencies
+* Rails version 4.2.1
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* MySQL version 5.6.22
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
