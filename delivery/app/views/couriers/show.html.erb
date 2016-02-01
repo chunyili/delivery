@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Courier:</strong>
+  <%= @courier.courier_id %>
+</p>
+
+<p>
+  <strong>Store:</strong>
+  <%= @courier.store_id %>
+</p>
+
+<%= link_to 'Edit', edit_courier_path(@courier) %> |
+<%= link_to 'Back', couriers_path %>

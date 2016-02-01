@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pkg_id: 1
+  rut_id: 1
+  ins_id: MyString
+
+two:
+  pkg_id: 1
+  rut_id: 1
+  ins_id: MyString

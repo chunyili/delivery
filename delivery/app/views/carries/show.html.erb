@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pkg:</strong>
+  <%= @carry.pkg_id %>
+</p>
+
+<p>
+  <strong>Rut:</strong>
+  <%= @carry.rut_id %>
+</p>
+
+<p>
+  <strong>Ins:</strong>
+  <%= @carry.ins_id %>
+</p>
+
+<%= link_to 'Edit', edit_carry_path(@carry) %> |
+<%= link_to 'Back', carries_path %>

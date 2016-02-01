@@ -1,0 +1,17 @@
+<h1> SF Tracking</h1>
+
+<%= form_tag :controller => "delivery", :action => "Tracking", method: "POST" do%>
+    <%= text_field :package_id, params[:package_id] %>
+    <%= submit_tag "Search", :name => nil%>
+
+<<<<<<< HEAD
+=======
+<%end%>
+
+<h1>Find a location</h1>
+<%= form_tag :controller => "delivery", :action => "store", method: "POST" do%>
+    <%= text_field :zipcode, params[:zipcode] %>
+    <%= submit_tag "Search", :name => nil%>
+
+>>>>>>> a626c4b3984e3f743c082374be6e7cf5b2ba95c4
+<%end%>

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Route:</strong>
+  <%= @instance.route_id %>
+</p>
+
+<p>
+  <strong>Instance:</strong>
+  <%= @instance.instance_id %>
+</p>
+
+<p>
+  <strong>Method:</strong>
+  <%= @instance.method %>
+</p>
+
+<p>
+  <strong>Dept time:</strong>
+  <%= @instance.dept_time %>
+</p>
+
+<p>
+  <strong>Arvl time:</strong>
+  <%= @instance.arvl_time %>
+</p>
+
+<%= link_to 'Edit', edit_instance_path(@instance) %> |
+<%= link_to 'Back', instances_path %>

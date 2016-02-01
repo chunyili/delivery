@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cou_id: 1
+  pkg_id: 1
+  rcv_id: 1
+
+two:
+  cou_id: 1
+  pkg_id: 1
+  rcv_id: 1

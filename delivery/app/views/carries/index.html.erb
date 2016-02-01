@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Carries</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pkg</th>
+      <th>Rut</th>
+      <th>Ins</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @carries.each do |carry| %>
+      <tr>
+        <td><%= carry.pkg_id %></td>
+        <td><%= carry.rut_id %></td>
+        <td><%= carry.ins_id %></td>
+        <td><%= link_to 'Show', carry %></td>
+        <td><%= link_to 'Edit', edit_carry_path(carry) %></td>
+        <td><%= link_to 'Destroy', carry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Carry', new_carry_path %>

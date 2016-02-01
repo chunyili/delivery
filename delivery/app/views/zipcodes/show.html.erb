@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @zipcode.zipcode %>
+</p>
+
+<p>
+  <strong>Store:</strong>
+  <%= @zipcode.store_id %>
+</p>
+<<<<<<< HEAD
+
+<%= link_to 'Edit', edit_zipcode_path(@zipcode) %> |
+<%= link_to 'Back', zipcodes_path %>
+=======
+<p>
+  <strong>Store_name:</strong>
+  <%= @store.store_name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @store.phone %>
+</p>
+<p>
+  <strong>Country:</strong>
+  <%= @store_add.country %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @store_add.state %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @store_add.street %>
+</p>
+
+<% if current_user.try(:admin?)%>
+<%= link_to 'Edit', edit_zipcode_path(@zipcode) %>
+
+<%= link_to 'Back', zipcodes_path %>
+<% end %>
+>>>>>>> a626c4b3984e3f743c082374be6e7cf5b2ba95c4

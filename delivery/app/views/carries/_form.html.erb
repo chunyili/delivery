@@ -1,0 +1,29 @@
+<%= form_for(@carry) do |f| %>
+  <% if @carry.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@carry.errors.count, "error") %> prohibited this carry from being saved:</h2>
+
+      <ul>
+      <% @carry.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :pkg_id %><br>
+    <%= f.number_field :pkg_id %>
+  </div>
+  <div class="field">
+    <%= f.label :rut_id %><br>
+    <%= f.number_field :rut_id %>
+  </div>
+  <div class="field">
+    <%= f.label :ins_id %><br>
+    <%= f.text_field :ins_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

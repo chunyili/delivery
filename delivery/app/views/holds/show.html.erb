@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pkg:</strong>
+  <%= @hold.pkg_id %>
+</p>
+
+<p>
+  <strong>Sto:</strong>
+  <%= @hold.sto_id %>
+</p>
+
+<%= link_to 'Edit', edit_hold_path(@hold) %> |
+<%= link_to 'Back', holds_path %>

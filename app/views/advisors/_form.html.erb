@@ -1,0 +1,25 @@
+<%= form_for(@advisor) do |f| %>
+  <% if @advisor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@advisor.errors.count, "error") %> prohibited this advisor from being saved:</h2>
+
+      <ul>
+      <% @advisor.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :s_ID %><br>
+    <%= f.text_field :s_ID %>
+  </div>
+  <div class="field">
+    <%= f.label :i_ID %><br>
+    <%= f.text_field :i_ID %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

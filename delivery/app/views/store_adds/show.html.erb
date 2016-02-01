@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>S:</strong>
+  <%= @store_add.s_id %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @store_add.country %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @store_add.state %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @store_add.city %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @store_add.street %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @store_add.zipcode %>
+</p>
+
+<p>
+  <strong>Timezone:</strong>
+  <%= @store_add.timezone %>
+</p>
+
+<%= link_to 'Edit', edit_store_add_path(@store_add) %> |
+<%= link_to 'Back', store_adds_path %>

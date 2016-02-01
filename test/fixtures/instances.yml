@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  route_id: 1
+  instance_id: 1
+  method: MyString
+  dept_time: 2015-04-18 12:53:25
+  arvl_time: 2015-04-18 12:53:25
+
+two:
+  route_id: 1
+  instance_id: 1
+  method: MyString
+  dept_time: 2015-04-18 12:53:25
+  arvl_time: 2015-04-18 12:53:25

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  package_id: 1
+  sender_id: 1
+  receiver_id: 1
+  content: MyString
+  length: 9.99
+  width: 9.99
+  height: 9.99
+  weight: 9.99
+  price: 9.99
+
+two:
+  package_id: 1
+  sender_id: 1
+  receiver_id: 1
+  content: MyString
+  length: 9.99
+  width: 9.99
+  height: 9.99
+  weight: 9.99
+  price: 9.99

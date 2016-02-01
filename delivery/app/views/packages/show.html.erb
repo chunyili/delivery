@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Package:</strong>
+  <%= @package.package_id %>
+</p>
+
+<p>
+  <strong>Sender:</strong>
+  <%= @package.sender_id %>
+</p>
+
+<p>
+  <strong>Receiver:</strong>
+  <%= @package.receiver_id %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @package.content %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @package.length %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @package.width %>
+</p>
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> a626c4b3984e3f743c082374be6e7cf5b2ba95c4
+<p>
+  <strong>Height:</strong>
+  <%= @package.height %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @package.weight %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @package.price %>
+</p>
+<<<<<<< HEAD
+=======
+
+>>>>>>> a626c4b3984e3f743c082374be6e7cf5b2ba95c4
+<% if current_user.try(:admin?) %>
+<%= link_to 'Edit', edit_package_path(@package) %> |
+
+<% end%>
+<%= link_to 'Back', packages_path %>
