@@ -1,9 +1,8 @@
-== README
-
+#Develiver 
 This project is a web application for a develivey company so that the company can handle their databases easily. 
 This project also uses MySQL database. 
 
-prerequsite:
+##prerequsite:
 
 * Ruby version 2.0.0
 
